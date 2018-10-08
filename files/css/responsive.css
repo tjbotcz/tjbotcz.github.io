@@ -251,6 +251,11 @@
   .padding-none:nth-child(5) {
     border-bottom: 1px solid #ddd;
   }
+  .lang-switch-area {
+    position: absolute;
+    top: 9vh;
+    right: 15vw;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -278,5 +283,10 @@
   .btn {
     padding: 5px 7px;
     font-size: 13px;
+  }
+  .lang-switch-area {
+    position: absolute;
+    top: 9vh;
+    right: 9vw;
   }
 }

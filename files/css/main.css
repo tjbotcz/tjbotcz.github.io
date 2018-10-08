@@ -162,7 +162,7 @@ p {
   -moz-transition: -webkit-transform 0.1s;
   transition: transform 0.1s;
   }
-  
+
   /* MAKES LINE ABOVE SELECTED ITEM IN THE MENU */
   .navbar-expand-lg .navbar-nav .active a:before {
     -webkit-transform: scale3d(1, 1, 1);
@@ -180,7 +180,7 @@ p {
   position: absolute;
   padding: 15px 15px;
   top: 0;
-  
+
 }
 
 .navbar-video img {
@@ -201,7 +201,7 @@ p {
 
 /* BURGER MENU ============================ */
 /* HIDE FOR LARGE SCREENS */
-.slicknav_menu {  
+.slicknav_menu {
   display: none;
 }
 
@@ -506,7 +506,7 @@ color: #c6b8ae;
   background: white;
   cursor: pointer;
   padding-left: 3vw;
-  border: 3px  
+  border: 3px
 }
 
 .accordion .card-header p{
@@ -594,4 +594,23 @@ color: #51443C;
     background: #e3d9d4;
     color: #857B72;
   }
+}
+
+.lang-switch-area {
+  position: absolute;
+  top: 2vh;
+  right: 5vw;
+}
+.lang-switch li {
+  display: inline-block;
+  padding: 3px;
+}
+.lang-switch li:hover {
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.lang-switch li a img{
+  width: 35px;
+  height: auto;
 }
