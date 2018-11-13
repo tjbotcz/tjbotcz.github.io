@@ -673,6 +673,42 @@ color: #51443C;
   margin-right: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .manuals-area {
+    bottom: 0px;
+    width: 60px;
+  }
+
+  .manuals-area .container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .manuals-area .container .manuals .manuals-picture {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+  }
+
+  .manuals-area .container .manuals .manuals-picture img {
+    width: 40px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -5px;
+    margin-right: auto;
+  }
+
+  .manuals-area .container .manuals .manuals-text {
+    display: none;
+  }
+}
+
+
 @-webkit-keyframes shake {
     0% { transform: translateY(-45px) scale(1.0); }
 
